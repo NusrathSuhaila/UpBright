@@ -1,4 +1,5 @@
-
+import Link from "next/link";
+import '../globals.css';
 
 export default function Business() {
     return (
@@ -40,7 +41,7 @@ export default function Business() {
                   justifyContent: "center",
                 }}
               >
-                <a
+                <Link
                   href="https://www.upbright.lk/customer/enquiry"
                   className="button"
                   style={{
@@ -52,8 +53,8 @@ export default function Business() {
                   }}
                 >
                   Get Upbright Business
-                </a>
-                <a
+                </Link>
+                <Link
                   href="https://ubcourse.com/home/courses?category=all&&price=all&&level=all&&language=all&&rating=all"
                   className="button2"
                   style={{
@@ -65,7 +66,7 @@ export default function Business() {
                   }}
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
